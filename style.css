@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: 'Raleway_B';
+    src: url('font/Raleway-Bold.woff2') format('woff2'),
+        url('font/Raleway-Bold.woff') format('woff'),
+        url('font/Raleway-Bold.ttf') format('ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-Medium.woff2') format('woff2'),
+        url('font/Raleway-Medium.woff') format('woff'),
+        url('font/Raleway-Medium.ttf') format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('font/Raleway-Regular.woff2') format('woff2'),
+        url('font/Raleway-Regular.woff') format('woff'),
+        url('font/Raleway-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('font/Montserrat-Regular.woff2') format('woff2'),
+        url('font/Montserrat-Regular.woff') format('woff'),
+        url('font/Montserrat-Regular.ttf') format('ttf');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat_EL';
+    src: url('font/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('font/Montserrat-ExtraLight.woff') format('woff'),
+        url('font/Montserrat-ExtraLight.ttf') format('ttf');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat_L';
+    src: url('font/Montserrat-Light.woff2') format('woff2'),
+        url('font/Montserrat-Light.woff') format('woff'),
+        url('font/Montserrat-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('font/Roboto-Regular.woff2') format('woff2'),
+        url('font/Roboto-Regular.woff') format('woff'),
+        url('font/Roboto-Regular.ttf') format('ttf'),
+        url('font/Roboto-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.main {
+    background-image: url(img/main_bg.jpg);
+    background-color: #434341;
+    min-height: 1024px;
+    width: 1920px;
+}
+    .main_title {
+        color: #ffffff;
+        font-family: "Raleway";
+        font-size: 52px;
+        font-weight: 400;
+    }
+    .main_bold_title {
+        color: #ffffff;
+        font-family: "Raleway_B";
+        font-size: 52px;
+        font-weight: 400;
+    }
+    .main_text {
+        color: #ffffff;
+        font-family: 'Montserrat';
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        width: 562px;
+    }
