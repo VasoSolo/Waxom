@@ -71,7 +71,6 @@
     font-family: 'Roboto';
     src: url('font/Roboto-Regular.woff2') format('woff2'),
         url('font/Roboto-Regular.woff') format('woff'),
-        url('font/Roboto-Regular.ttf') format('ttf'),
         url('font/Roboto-Regular.ttf') format('ttf');
     font-weight: normal;
     font-style: normal;
