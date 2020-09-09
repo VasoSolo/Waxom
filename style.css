@@ -281,10 +281,8 @@
             opacity: 1;
             transform: scale(1.1);
         }
-
 .screen {
     width: 1920px;
     height: 300px;
     background-color: #fbfaf8;
-}
-        
+}        
