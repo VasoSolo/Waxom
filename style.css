@@ -108,14 +108,18 @@
                 border-bottom: 3px solid #a2a29f;
                 border-left: 3px solid #a2a29f;
                 transform: rotate(45deg);
+                cursor: pointer;
+                transition: 0.5s;
             }
         .main_slide_but_right {
             align-self: center;
             padding-right: 150px;
+            
         }
         .main_slide_but_right:hover .arrow_right{
             border-bottom: 3px solid #d3c1ad;
             border-left: 3px solid #d3c1ad;
+            
         }
             .arrow_right {
                 width: 55px;
@@ -125,6 +129,8 @@
                 border-left: 3px solid #a2a29f;
                 align-self: center;
                 transform: rotate(225deg);
+                cursor: pointer;
+                transition: 0.5s;
             }
         .main_slide_center {
             width: 600px;
@@ -148,7 +154,6 @@
                 font-size: 52px;
                 font-weight: bold;
                 font-style: normal;
-                font-display: swap;
                 text-align: center;
                 margin-bottom: 10px;
             }
@@ -164,7 +169,7 @@
             }
             .main_started:hover .main_started_button{
                 background-color: #555555;
-                border-bottom: 2px solid #000000;
+                border-bottom: 5px solid #555555;
             }
                 .main_started_button {
                     background-color: #998675;
@@ -176,7 +181,8 @@
                     font-style: normal;
                     padding: 15px 37px;
                     border-radius: 5px;
-                    border-bottom: 2px solid #736357;
+                    border-bottom: 5px solid #736357;
+                    transition: 0.5s;
                 }
 .services {
     width: 1920px;
@@ -185,7 +191,7 @@
         display: flex;
         height: max-content;
         justify-content: space-between;
-        padding: 40px 220px;
+        padding: 80px 220px;
     }
     .services_item {
         display: flex;
@@ -193,33 +199,87 @@
         width: 270px;
         align-items: center;
         position: relative;
+        cursor: pointer;
+        transition: 0.7s;
+        transition-delay: 0.1s;
     }
+        .designe_not_active {
+            margin-top: -9px;
+        }
+        .designe_active {
+            margin-top: -9px;
+        }
+        .icon_not_active {
+            transition: 0.5s;
+        }
+        .icon_active {
+            position: absolute;
+            left: 41%;
+            top: 0;
+            opacity: 0;
+            transition: 0.5s;
+        }
+        .icon_development_not_active {
+            transition: 0.5s;
+        }
+        .icon_development_active {
+            position: absolute;
+            left: 41%;
+            top: 0;
+            opacity: 0;
+            transition: 0.5s;
+        }
         .services_item_title {
             text-align: center;
-            margin-top: 10px;
+            margin-top: 30px;
             color: #555555;
             font-family: 'Raleway';
             font-size: 18px;
-            font-weight: normal;
+            font-weight: bolder;
             font-style: normal;
-            font-display: swap;
+            transition: 0.5s;
         }
         .services_item_text {
             text-align: center;
-            margin-top: 10px;
+            margin-top: 20px;
             color: #8c8c8c;
             font-family: 'Montserrat';
             font-size: 14px;
-            padding-bottom: 40px;
+            font-weight: 400;
+            line-height: 24px;
+            padding-bottom: 30px;
+            transition: 2s;
         }
         .line {
-            height: 2px;
-            width: 60px;
-            border: 2px solid #f1eee9;
+            height: 0;
+            width: 80px;
+            border-bottom: 4px solid #f1eee9;
             position: absolute;
-            left: 39%;
+            left: 36%;
             bottom: 0;
-
+            transition: 0.5s;
+        }
+        .services_item:hover ~ .services_item {
+            filter: blur(2px);
+            transform: perspective(200px) rotateY(-15deg) scale(0.92);
+           }
+        .services_item:hover .line {
+            border-bottom: 5px solid #c7b299;
+            transform: scale(1.1);
+        }
+        .services_item:hover .services_item_text {
+            transform: scale(1.3);
+        }
+        .services_item:hover .services_item_title{
+            color: #c7b299;
+            transform: scale(1.1);
+        }
+        .services_item:hover .icon_not_active {
+            opacity: 0;
+        }
+        .services_item:hover .icon_active {
+            opacity: 1;
+            transform: scale(1.1);
         }
 
 .screen {
