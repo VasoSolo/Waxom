@@ -294,7 +294,6 @@
         font-family: 'Raleway';
         font-weight: bold;
         font-style: normal;
-        font-display: swap;
         font-size: 30px;
         color: #555555;
         text-align: center;
@@ -305,7 +304,6 @@
         font-family: 'Montserrat';
         font-weight: 300;
         font-style: normal;
-        font-display: swap;
         font-size: 16px;
         color: #555555;
         text-align: center;
@@ -349,7 +347,6 @@
         font-family: 'Montserrat';
         font-weight: 300;
         font-style: normal;
-        font-display: swap;
         font-size: 18px;
         color: #615855;
     }
@@ -357,7 +354,6 @@
         font-family: 'Raleway';
         font-weight: normal;
         font-style: normal;
-        font-display: swap;
         font-size: 28px;
         color: #e4e2e1;
     }
@@ -378,7 +374,6 @@
             font-family: 'Raleway';
             font-weight: bold;
             font-style: normal;
-            font-display: swap;
             font-size: 14px;
             color: #ffffff;
         }
@@ -401,7 +396,6 @@
             font-family: 'Raleway';
             font-weight: 500;
             font-style: normal;
-            font-display: swap;
             font-size: 30px;
             text-align: center;
             margin-bottom: 25px;
@@ -412,7 +406,6 @@
             font-family: 'Montserrat';
             font-weight: 300;
             font-style: normal;
-            font-display: swap;
             font-size: 19px;
             line-height: 28px;
             text-align: center;
@@ -439,7 +432,7 @@
     .project_example {
         justify-content: center;
         display: flex;
-        flex-wrap: wrap;;
+        flex-wrap: wrap;
     }
         .project_example_item {
             padding: 0 15px 30px;
@@ -456,7 +449,6 @@
                     font-family: 'Raleway';
                     font-weight: 500;
                     font-style: normal;
-                    font-display: swap;
                     color: #c7b299;
                     padding-bottom: 15px;
                 }
@@ -464,7 +456,6 @@
                     font-family: 'Montserrat';
                     font-weight: 300;
                     font-style: normal;
-                    font-display: swap;
                     color: #d7d6d6;
                 }
     .project_example_load_more {
@@ -484,7 +475,6 @@
                 font-family: 'Raleway';
                 font-weight: bold;
                 font-style: normal;
-                font-display: swap;
                 font-size: 14px;
                 line-height: 23px;
                 text-decoration: none;
